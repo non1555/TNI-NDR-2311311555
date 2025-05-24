@@ -4,7 +4,7 @@ This Workspace is 6 Months Stock recent Information Dashboard Website Using .xls
 
 -You can choose to filter Duration of time of Stock Information from one, three or six month recent to Display
 
--You can replace .xlsm file with yours, But your file need to have header including "วันที่ "ราคาสูงสุด" "ราคาต่ำสุด" "ราคาปิด" "ปริมาณหุ้น" "มูลค่าหุ้น"
+-You can replace .xlsm file with yours, But your file need to have header including "วันที่" "ราคาสูงสุด" "ราคาต่ำสุด" "ราคาปิด" "ปริมาณหุ้น" "มูลค่าหุ้น"
 
 
 How to use
