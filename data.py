@@ -5,6 +5,7 @@ from dateutil.relativedelta import relativedelta as rel
 from sklearn.linear_model import LinearRegression
 
 df = pd.read_excel("MAJOR.xlsx", sheet_name="MAJOR")
+
 df.columns = [
 "วันที่", "ราคาเปิด", "ราคาสูงสุด", "ราคาต่ำสุด", "ราคาเฉลี่ย", "ราคาปิด",
 "เปลี่ยนแปลง", "เปลี่ยนแปลง(%)", "ปริมาณ(พันหุ้น)", "มูลค่า(ล้านบาท)",
