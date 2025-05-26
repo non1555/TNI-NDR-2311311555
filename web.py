@@ -15,7 +15,7 @@ with row1[1]:
     with row1_sub[1]:
         st.header(data.df["ราคาปิด"][0] )
         change = str(data.df["เปลี่ยนแปลง"][0]) + " (" + str(data.df["เปลี่ยนแปลง(%)"][0]) + "%)"
-        if data.df["เปลี่ยนแปลง"][0] < 0:
+        if data.df["เปลี่ยนแปลง"][0] > 0.00:
             st.success(change)
         else:
             st.error(change)
